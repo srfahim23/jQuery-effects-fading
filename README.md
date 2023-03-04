@@ -70,4 +70,3 @@ Example
 
     </body>
     </html>
-    # jQuery-Effects---Fading
