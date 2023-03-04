@@ -110,3 +110,32 @@ The optional callback parameter is a function to be executed after the fading co
 The following example demostrates the fadeToggle() method with different parameter:
 
 Example
+
+    $("button").click(function(){
+        $("#div1").fadeToggle();
+        $("#div2").fadeToggle("slow");
+        $("$div3").fadeToggle(3000);
+    });
+
+# jQuery fadeTo() Method
+The jQuery fadeTo() method allows fading to a given opacity (value between 0 and 1).
+
+Syntax:
+
+    $(selector).fadeTo(speed,opacity,callback);
+
+The required speed parameter specifies the duration of the effect. It can take the following values: "slow", "fast", or miliseconds.
+
+The required opacity parameter in the fadeTo() method specifies fading to a given opacity (value between 0 and 1).
+
+The optional callback parameter is a function to be executed after the function completes.
+
+The following example demonstrates the fadeTo() method with different parameter:
+
+Example
+
+    $("button").click(function(){
+        $("#div1").fadeTo("slow", 0.15);
+        $("div2").fadeTo("slow", 0.4);
+        $("#div3").fadeTo("slow", 0.7);
+    });
