@@ -70,3 +70,43 @@ Example
 
     </body>
     </html>
+
+# jQuery fadeOut() Method
+The jQueryOut() method is used to fade out a visible element.
+
+Syntax:
+
+    $(selector).fadeOut(speed,callback);
+
+The optional speed parameter specifies the duration of the effect. It can take the following value: "slow", or milisecond.
+
+The optional callback parameter is a function to be executed after fading competes.
+
+The following example demonstrates the fadeOut() method with different parameters:
+
+Example
+
+    $("button").click(funciton(){
+        $("#div1").fadeOut();
+        $("#div2").fadeOut("slow");
+        $("#div3").fadeOut(3000);
+    });
+
+# jQuery fadeToggle() Method
+The jQuery fadeToggle() method toggles between the fadeIn() and fadeOut() methods.
+
+If the elements are faded out, fadeToggle() will fade them in.
+
+If the elements are faded in, fadeToggle() will fade them out.
+
+Syntax:
+
+    $(selector).fadeToggle(speed.callaback);
+
+The optional speed parameter specifies the duration of the effect. It can take the following values: "slow", "fast", or milisecond.
+
+The optional callback parameter is a function to be executed after the fading competes. 
+
+The following example demostrates the fadeToggle() method with different parameter:
+
+Example
