@@ -71,5 +71,3 @@ Example
     </body>
     </html>
     # jQuery-Effects---Fading
-# jQuery-effects-fading
-# jQuery-effects-fading
